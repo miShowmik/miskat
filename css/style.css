@@ -1,0 +1,309 @@
+body{
+    margin: 0 30px;
+    padding: 0;
+    background-color: #fafafa ;
+  
+}
+
+
+#header{
+    height: 70px;
+    width: 100%;
+}
+
+.navbar{
+    display: flex;
+    
+    justify-content: space-between;
+    width: 80%;
+}
+.nav-item{
+    font-family:cursive;
+    margin-right: 70px;
+    font-size: 15px;
+  
+    
+
+}
+a{
+    text-decoration: none;
+    color: rgb(99, 96, 96);
+}
+
+.nav-item li{
+    
+    display: inline-block;
+  
+
+}
+.a-1{
+    display: inline-block;
+    color: rgb(99, 96, 96);
+    margin: 1px 4px 0  4px;
+    border-bottom: 1px transparent;
+    transition: all .3s ease-in-out;
+}
+
+.a-1:hover{
+    color: black;
+    border-bottom: 4px solid green;
+    border-radius: 4px;
+}
+.profile-name{
+
+
+    
+}
+.profile-name img{
+    height: 80px;
+    width: 100px;
+   
+    
+}
+
+
+hr{
+    margin: 0;
+}
+
+
+
+
+#content{
+    width: 80%;
+    margin: 20px auto;
+    
+}
+
+
+.intro{
+    display: flex;
+    flex-wrap: wrap;
+    
+    width: 70%;
+    margin: 10px auto;
+}
+
+.intro-content{
+    margin-left: 15px;
+}
+.intro-content .txt1{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 1.2em;
+    font-weight: 100;
+    display: inline-block;
+    letter-spacing: 1px;
+}
+
+
+
+.intro-content .txt{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 1.9em;
+    font-weight: 500;
+    letter-spacing: 4px;
+}
+
+#menu{
+    width: 50%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+  
+}
+.project{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.active2{
+ 
+    width: fit-content;
+    margin-right: 10px;
+    border-bottom: 1px solid rgb(99, 96, 96) ;
+    font-size: 1.8em;
+    transition: all .3s ;
+}
+.active2:hover{
+    border-bottom: 2px solid seagreen;
+    
+    color: black;
+}
+.active{
+    color: black;
+    font-size: 1.8em;
+    border-bottom: 2px solid seagreen;
+}
+#pro-1{
+  
+    
+    font-family: 'Open Sans Condensed', sans-serif;
+   font-weight: 500;
+   letter-spacing: 1px;
+}
+
+.pro{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+ 
+}
+.pro-con{
+    width: 400px;
+  
+}
+.pro-con img{
+    height: 250px;
+    width: 350px;
+    border-radius: 10px;
+}
+.pro-obj{
+    display: flex;
+    justify-content: space-between;
+}
+.pro-txt{
+    width: 50%;
+}
+.pro-lan{
+    margin-right: 50px;
+}
+.pro-button a{
+    border: 2px solid green;
+    color: black;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+
+
+
+
+
+@media screen and (max-width: 600px) {
+    .pro-con img{
+        height: 100px;
+        width: 150px;
+        border-radius: 10px;
+    }
+    .profile-name{
+        display: none;
+      
+        
+    }
+    .footer-content{
+       
+        display: block;
+
+    }
+    .intro-content .txt1{
+        display: none;
+    }
+    .project{
+        
+    }
+    .active{
+        display: block;
+        font-size: 15px;
+        padding: 10px;
+        margin: 10px;
+    }
+    .active2{
+        display: block;
+        font-size: 15px;
+        padding: 10px;
+    }
+    }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#footer{
+   height: 50px;
+}
+
+.footer-content{
+  width: fit-content;
+  margin: 0 auto;
+  
+}
+
+.footer-content p{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 600;
+    letter-spacing: 4px;
+    margin:0 auto;
+    padding-top:10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.social-icons{
+    margin-top: 10px;
+    display: inline-block;
+}
+
+
+.social-icons a{
+    color: black;
+    border: none;
+    padding: 0 10px;
+   
+}
+ion-icon{
+    font-size: 20px;
+}
